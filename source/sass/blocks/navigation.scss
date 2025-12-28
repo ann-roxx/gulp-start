@@ -1,11 +1,13 @@
 .container {
-  max-width: 1200px;
+  max-width: 1728px;
   width: 100%;
   align-items: center;
   display: flex;
   justify-self: center;
   margin-left: 84px;
   margin-right: 84px;
+  position: relative;
+  z-index: 2;
 }
 
 .navigation {

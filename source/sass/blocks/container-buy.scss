@@ -1,0 +1,38 @@
+.container-buy {
+  max-width: 1728px;
+  height: 581px;
+  margin-top: auto;
+  margin-left: 84px;
+  justify-content: left;
+  align-items: center;
+}
+
+.find-crosses {
+  text-transform: capitalize;
+  display: inline-block;
+  width: 480px;
+  height: 252px;
+  font-size: 75px;
+  color: #000000;
+  line-height: 1;
+  font-style: Bold;
+  margin-top: 340px;
+}
+
+.motivation-text {
+  text-transform: capitalize;
+  width: 590px;
+  height: 86px;
+  font-size: 28px;
+  color: #000000BF;
+}
+
+.button-buy {
+  color: #FFFFFF;
+  background-color: #000000;
+  width: 312px;
+  height: 87px;
+  font-size: 28px;
+  text-transform: capitalize;
+  box-shadow: 0px 26.45px 22.49px 0px rgba (#0000000E,5,64%)
+}
