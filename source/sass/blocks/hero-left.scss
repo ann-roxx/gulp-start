@@ -6,7 +6,7 @@
     @include font-face('Inter', 'inter-medium', 500);
   }
 
-  &_img {
+  &_product_img {
     position: absolute;
     width: 783px;
     margin-top: 316px;
@@ -21,7 +21,7 @@
     margin-left: 352px;
   }
 
-  &_price {
+  &_product_price {
     position: absolute;
     width: 113px;
     font-size: 32px;
