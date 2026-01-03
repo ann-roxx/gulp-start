@@ -1,0 +1,33 @@
+.hero {
+&_content {
+    height: 581px;
+    margin-left: 84px;
+  }
+
+  &_main_title {
+    width: 480px;
+    font-size: 75px;
+    display: inline-block;
+    margin-top: 340px;
+    line-height: 1;
+    @include font-face('Inter', 'inter-bold', 700);
+  }
+
+  &_description {
+    width: 590px;
+    font-size: 28px;
+    margin-top: 78px;
+    @include font-face('Inter', 'inter-regular');
+  }
+
+  &_btn {
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-top: 78px;
+    width: 312px;
+    height: 87px;
+    font-size: 28px;
+    text-transform: capitalize;
+    @include font-face('Inter', 'inter-semibold', 600);
+  }
+}

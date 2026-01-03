@@ -1,0 +1,38 @@
+.hero {
+  &_product {
+    position: relative;
+    width: 1560px;
+    background: linear-gradient(90deg, #E4E4E4 0%, #FAFAFA 100%);
+    @include font-face('Inter', 'inter-medium', 500);
+  }
+
+  &_img {
+    position: absolute;
+    width: 783px;
+    margin-top: 316px;
+    margin-left: 107px;
+  }
+
+  &_product_name {
+    position: absolute;
+    width: 295px;
+    font-size: 38px;
+    margin-top: 907px;
+    margin-left: 352px;
+  }
+
+  &_price {
+    position: absolute;
+    width: 113px;
+    font-size: 32px;
+    margin-top: 957px;
+    margin-left: 439px;
+    color: #00000080;
+  }
+
+  &_ultimate {
+    margin-top: 155px;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+  }
+}
