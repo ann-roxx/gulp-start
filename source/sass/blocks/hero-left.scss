@@ -1,9 +1,8 @@
 .hero {
   &_product {
     position: relative;
-    width: 1560px;
+    width: 1000px;
     background: linear-gradient(90deg, #E4E4E4 0%, #FAFAFA 100%);
-    @include font-face('Inter', 'inter-medium', 500);
   }
 
   &_product_img {

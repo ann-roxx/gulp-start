@@ -1,13 +1,9 @@
 .header {
-  width: 100%;
-  display: flex;
 
   &_container {
-    width: 1560px;
+    width: 1590px;
     margin-top: 77px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: relative;
     z-index: 20;
   }
