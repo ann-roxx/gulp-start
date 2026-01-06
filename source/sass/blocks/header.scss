@@ -1,0 +1,58 @@
+.header {
+
+  &_container {
+    width: 1590px;
+    margin-top: 77px;
+    display: flex;
+    position: relative;
+    z-index: 20;
+  }
+
+  &_logo {
+    width: 93px;
+    height: 31px;
+    flex-shrink: 0;
+  }
+
+  &_nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_nav_list {
+    display: flex;
+    gap: 36px;
+    @include clear-list;
+  }
+
+  &_menu_items {
+    font-size: 24px;
+    color: #000000;
+    line-height: 154%;
+  }
+
+  &_action {
+    display: flex;
+    gap: 44px;
+  }
+
+  &_icon_find,
+  &_icon_shop {
+    @include clear-button;
+    position: relative;
+  }
+
+  &_card_count {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    transform: translate(50%,-50%);
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+}

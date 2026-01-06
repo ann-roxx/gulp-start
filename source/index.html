@@ -7,33 +7,55 @@
     <title>Ваш проект</title>
     <link rel="stylesheet" href="css/style.min.css">
   </head>
+
   <body>
-    <header class="navigation">
-      <div class="container">
-        <a href="navigation"></a>
-          <div class="logo">
-            <img src="img/slick_logo.png"alt="Логотип компании Slick">
-          </div>
+    
+    <header class="header">
+      <div class="header_container container">
+        <a href="header_logo">
+          <img src="img\slick_logo.svg"alt="Логотип компании Slick">
         </a>
-        <nav class="menu">
-          <li class="contacts">
-            <a href="#">Главная</a>
-          </li>
-          <li class="contacts">
-            <a href="#">Магазин</a>
-          </li>
-          <li class="contacts">
-            <a href="#">Контакты</a>
-          </li>
+
+        <nav class="header_nav">
+          <ul class="header_nav_list">
+            <li class="header_menu_items"><a href="#">Главная</a></li>
+            <li class="header_menu_items"><a href="#">Магазин</a></li>
+            <li class="header_menu_items"><a href="#">Контакты</a>
+          </ul>
         </nav>
-        <button class="icon-find">
-          <img src="img\find_icon.svg" alt="лупа">
-        </button>
-        <button class="icon-shop">
-          <img src="img\shop_icon.svg" alt="корзина">
-          <span class="card-count">0</span>
-        </button>
+
+        <div class="header_action">
+          <button class="header_icon_find">
+            <img src="img\find_icon.svg" alt="Лупа">
+          </button>
+          <button class="header_icon_shop">
+            <img src="img\shop_icon.svg" alt="Корзина">
+            <span class="header_card_count">7</span>
+          </button>
+        </div>
       </div>
     </header>
+
+    <section class="hero">
+      <div class="hero_conteiner container">
+        <div class="hero_content">
+          <h1 class="hero_main_title">Найди свои идеальные кроссы</h1>
+          <p class="hero_description">Какой-то супер-мотивирующий текст чтоб купили прям вообще всё</p>
+            <div class="hero_action">
+              <button class="hero_btn"><a href="#"></a>За покупками</button>
+            </div>
+        </div>
+        <div class="hero_product">
+          <img class="hero_product_img" src="img\crosses_slickpro.png" alt="Белые кроссы">
+          <p class="hero_product_name">Trendy Slick Pro</p>
+          <p class="hero_product_price">3999 ₽</p>
+          <div>
+            <img class="hero_ultimate" src="img\ultimate.svg" alt="background ultimate">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
   </body>
 </html>
