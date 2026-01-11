@@ -1,0 +1,118 @@
+.product {
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1590px;
+    height: 447px;
+    margin-top: 132px;
+  }
+
+  &_content {
+    width: 300px;
+    text-transform: capitalize;
+    color: black;
+  }
+
+  &_title_section {
+    width: 284px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+      &_line {
+        width: 47px;
+        height: 2px;
+        transform: 0%;
+      }
+      &_title {
+        width: 215px;
+        font-size: 24px;
+      }
+
+  &_main_title {
+    width: 277px;
+    font-size: 45px;
+    margin-top: -15px;
+    margin-bottom: 24px;
+  }
+
+  &_description {
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  &_btn {
+    @include clear-button;
+    width: 290px;
+    height: 77px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 28px;
+    box-shadow: 0px 2.77px 2.21px 0px #00000005,
+                0px 6.65px 5.32px 0px #00000007,
+                0px 12.52px 10.02px 0px #00000009,
+                0px 22.34px 17.87px 0px #0000000B,
+                0px 41.78px 33.42px 0px #0000000D,
+                0px 100px 80px 0px #00000012;
+  }
+
+  &_slider {
+    width: 1191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 69px;
+    position: relative;
+  }
+
+  &_slidergroup {
+    position: absolute;
+    margin-top: 540px;
+  }
+
+  &_slider_container {
+    width: 309px;
+    background-color: #D9D9D926;
+    border-radius: 15px;
+    border-color: #DEDEDE;
+    border: 2px;
+    margin: 34px;
+    color: #000000;
+  }
+
+  &_crosses {
+    width: 225px;
+    rotate: -5deg;
+    scale: 2;
+    transform: translate(21px, 46px);
+  }
+
+  &_price_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 36px;
+  }
+
+  &_name {
+    width: 196px;
+    font-size: 21px;
+    margin-left: 36px;
+  }
+  &_price {
+    width: 85px;
+    font-size: 24px;
+    margin-right: 112px;
+  }
+
+  &product_arrowleft,
+  &product_arrowright {
+    width: 27px;
+    height: 15px;
+  }
+
+}
