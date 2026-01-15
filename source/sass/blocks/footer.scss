@@ -99,6 +99,9 @@
     width: 169px;
     height: 147px;
     margin-left: 216px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
   }
 
   &_reference {
